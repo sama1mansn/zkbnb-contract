@@ -11,7 +11,7 @@ require('dotenv').config();
 module.exports = {
     networks: {
         // hardhat: {
-        //     allowUnlimitedContractSize: true,
+        //     allowUnlimitedContractSize: false,
         // },
         local: {
             url: "http://127.0.0.1:8545",
